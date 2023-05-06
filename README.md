@@ -10,6 +10,11 @@ Para ficar mais apresentável para usar como portifólio
   <li><a href="https://site-curriculo-ref.vercel.app/">Aqui</a> é o site que estou refatorando, esse está hospedado no Vercel </li>
 </ul>
 
-<h1>Tecnologias</h1>
-<img src="https://icons8.com.br/icon/20909/html-5" alt="img-html">
+<h1>Tecnologias Utilizadas</h1>
+<div style="display: block;">
+<img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+<img align="center" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+<img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
+</div>
+
 
