@@ -10,4 +10,6 @@ Para ficar mais apresentável para usar como portifólio
   <li><a href="https://site-curriculo-ref.vercel.app/">Aqui</a> é o site que estou refatorando, esse está hospedado no Vercel </li>
 </ul>
 
+<h1>Tecnologias</h1>
+<img src="https://icons8.com.br/icons/set/html">
 
