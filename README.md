@@ -11,5 +11,5 @@ Para ficar mais apresentável para usar como portifólio
 </ul>
 
 <h1>Tecnologias</h1>
-<img src="https://icons8.com.br/icons/set/html">
+<img src="https://icons8.com.br/icon/20909/html-5" alt="img-html">
 
