@@ -1,0 +1,536 @@
+body
+{
+    color: white;
+    background-image: linear-gradient(to right,#FB654E,#FA2302,#C71D01,#FA2302,#FB654E);
+}
+
+@font-face
+{
+    font-family: SpongeBob;
+    src: url(./fonte/Spongeboy_Me_Bob.ttf);
+}
+
+@font-face {
+    font-family: AngryBirds;
+    src: url(./fonte/angrybirds-regular.ttf);
+}
+
+a
+{
+    
+    text-decoration: none;
+}
+
+h1,h2
+{
+    font-family: SpongeBob;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+h1
+{
+    text-shadow: 10px 5px 20px black;
+    font-size: 3.5rem;
+    word-spacing: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+h2
+{
+    text-shadow: 10px 5px 10px black;
+    font-size: 1.6rem;
+    margin-top: 5px;
+    word-spacing: 10px;
+}
+
+p
+{
+    font-family: AngryBirds;
+    font-size: 1.3rem;
+}
+#logo1
+{
+    width: 15%;
+    margin: 20px;
+    float: left;
+}
+.borda
+{
+    /* border: 3px solid #1599d6bb; */
+    padding-top: 15px;
+    font-family: SpongeBob;
+    margin: auto;
+    position: relative;
+    width: 50%;
+}
+
+.linha_menu
+{
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    /* border: 3px solid rgb(247, 247, 2); */
+    font-size: 1.8rem;
+}
+.menu li
+{
+    display: inline-block;
+    margin:10px;
+    color:white;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+#slides
+{
+    display: block;
+    margin: auto;
+    width: 90%;
+    /* border: 1px solid white; */
+}
+
+.nomes
+{
+    position: fixed;
+    margin-top: 70px;
+    float: left;
+    width: 38%;
+}
+
+.links
+{
+    float:right;
+    padding: 0px;
+    font-family: AngryBirds;
+}
+
+.links li
+{
+    word-spacing: 8px;
+    list-style: none;
+    padding: 11px;
+}
+
+.links a
+{
+    box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+    padding: 2px;
+    font-size: 1.7rem;
+    background-color: #C71C02;
+    border: 1px solid #ffffffbb;
+    border-radius: 8px;
+    color: white;
+}
+
+.links a:hover
+{
+    list-style: none;
+    background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+    padding: 1px;
+}
+
+.button 
+{
+    font-family: AngryBirds;
+    background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    font-style: italic;
+    font-size: 0.8;
+    box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+}
+.button:hover
+{
+    padding: 12px;
+
+}
+.dogs
+{
+    float: right;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin: auto;
+    margin-right: 15px;
+    text-align: center;
+    width: 60%;
+    box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+    font-size: 1.6rem;
+
+}
+
+#historia
+{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+footer
+{
+    background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    font-size: 1.8rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer a
+{
+    color: white;
+}
+
+footer ul,p
+{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    list-style-position: inside;
+}
+
+#IG
+{
+    list-style-image: url(./imagens/Instagran_50.png);
+}
+#ZAP
+{
+    list-style-image: url(./imagens/Zap_50.png);
+}
+
+
+#logo
+{
+    width: 18%;
+    position: relative;
+    float: left;
+}
+
+#rodape
+{
+    position: relative;
+    margin-left: 0px;
+}
+
+#ZAPZAP
+{    
+    position: fixed;/* posição do botão home fixa */
+    right: 35px;
+    top: 510px;
+}
+
+.home
+{
+    background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+    border: 2px solid white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+    position: fixed;/* posição do botão home fixa */
+    top: 500px;
+    left: 10px;
+    font-family: AngryBirds;
+    
+  
+}
+.home_dogs
+{
+    position: fixed;
+    background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+    border: 2px solid white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: AngryBirds;
+    box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+
+}
+#dogs_dogs
+{
+    opacity: 0.5;
+    cursor: not-allowed;
+    position: fixed;
+    top: 10px;
+    left: 165px;
+    background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+    border: 2px solid white;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    font-family: AngryBirds;
+    box-shadow: 5px 10px 20px black;
+
+}
+#botao_pedido
+{
+    position: fixed;
+    top: 25px;
+    left: 300px;
+    background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+    border: 2px solid white;
+    padding: 15px;
+    margin: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.5rem;
+    box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+    font-family: AngryBirds;
+}
+
+#curriculo
+{
+    position: fixed;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+}
+@media only screen and (max-width: 600px){
+    body
+    {
+        position: static;
+
+    }
+    #logo1
+    {
+        width: 30%;
+    }
+    h1
+    {
+        text-shadow: 10px 5px 20px black;
+        font-size: 2rem;
+        word-spacing: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    h2
+    {
+        text-shadow: 10px 5px 10px black;
+        font-size: 0.9rem;
+        margin-top: 5px;
+        word-spacing: 10px;
+    }
+    p
+    {
+        font-size: 0.8rem;
+    }
+    .borda
+    {
+        /* border: 3px solid #f321d7bb; */
+        padding-top: 5px;
+        font-family: SpongeBob;
+        margin: auto;
+        position: relative;
+        width: 90%;
+    }
+    .menu
+    {
+        position: relative;
+        list-style: none;
+        margin:auto;
+        padding: 0;
+        /* float: right; */
+    }
+
+    .linha_menu
+    {
+        display: block;
+        /* float: none; */
+        text-align: center;
+        width: 60%;
+        /* border: 3px solid rgb(6, 247, 2); */
+    }
+    .button 
+    {
+        font-family: AngryBirds;
+        background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+        border: 2px solid white;
+        text-align: center;
+        padding: 3px;
+        margin: 3px;
+        border-radius: 6px;
+        color: white;
+        font-size: 1rem;
+        box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+    }
+    #slides
+    {
+        margin: auto;
+        text-align: center;
+        display: block;
+        height: 50%;
+        /* border: 2px solid rgb(20, 136, 38); */
+    }
+    #historia
+    {
+        width: 90%;
+        text-align:justify;
+        margin: auto;
+    }
+    .nomes
+    {
+        position: relative;
+        top: 20px;
+        display: inline-block;
+        float: none;
+        width: 99%;
+        height: auto;
+        padding: 1px;
+        margin: 1px;
+    }
+
+    #botao_pedido
+    {
+        position: sticky;
+        top: 0px;
+        right: 0px;
+        background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+        border: 2px solid white;
+        padding: 15px;
+        margin: 15px;
+        border-radius: 10px;
+        color: white;
+        font-size: 0.8rem;
+        font-family: AngryBirds;
+        float: none;
+    }
+    .home_dogs
+    {
+        position: sticky;
+        top: 0px;
+        background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+        border: 2px solid white;
+        padding: 15px;
+        margin-top: 15px;
+        border-radius: 10px;
+        color: white;
+        font-size: 1rem;
+        font-family: AngryBirds;
+    }
+
+    .dogs
+    {
+        float: none;
+        display: inline-block;
+        position: static;
+        /* border: 1px solid rgb(22, 229, 248); */
+        border-radius: 8px;
+        margin: auto;
+        text-align: center;
+        width: 99%;
+        box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+        font-size: 1rem;
+
+    }
+    #cusco,#pinscher,#linguicinha
+    {
+        width: 40%;
+    }
+    #rottweiler,#pitbull_monster,#pitbull_k,#cadela_baia,#jaguatirica,#vira_lata
+    {
+        width: 35%;
+    }
+    #logo
+    {
+        width: 60%;
+    }
+    #dali
+    {
+        position: sticky;
+        top: 100px;
+        width: 50%;
+        float: left;
+    }
+    .links
+    {
+        float: none;
+        position: sticky;
+        margin-top: 0px;
+        margin-left:120px;
+        width: 40%;
+        padding: 1px;
+    }
+    .links a
+    {
+        box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+        padding: 2px;
+        font-family: AngryBirds;
+        font-size: 0.8rem;
+        background-color: #C71C02;
+        border: 1px solid #ffffffbb;
+        border-radius: 3px;
+        color: white;
+    }
+    #cachorro_quente
+    {
+        background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+        border-radius: 8px;
+        padding: 5px;
+        margin: 5px;
+        /* border: 2px solid blue; */
+        box-shadow: 5px 10px 20px black;
+        margin-bottom: 50px;
+
+    }
+    #dogs_dogs
+    {
+        position: sticky;
+        top: 0px;
+        left: 150px;
+        background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+        border: 2px solid white;
+        padding: 15px;
+        margin-top: 15px;
+        border-radius: 10px;
+        color: white;
+        font-size: 1rem;
+        font-family: AngryBirds;
+        box-shadow: 5px 10px 20px black;
+
+    }
+    #ZAPZAP
+    {    
+        position: fixed;/* posição do botão home fixa */
+        right:18px;
+        top: 490px;
+        width: 12%;
+    }
+
+    .home
+    {
+        background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+        border: 2px solid white;
+        padding: 8px;
+        margin: 8px;
+        border-radius: 8px;
+        color: white;
+        font-size: 1rem;
+        box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+        position: fixed;/* posição do botão home fixa */
+        top: 500px;
+        left: -5px;
+        font-family: AngryBirds;
+    }
+    footer
+    {
+        margin-bottom: 50px;
+    }
+
+}
+
+
+

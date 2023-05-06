@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(169, 169, 169);
+    margin: 0;
+    padding: 0;   
+}
+
+@font-face {
+    font-family: itsMypal;
+    src: url(./fontes/ItsMyPal-Regular.ttf);
+}
+
+button{
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 4px 8px 10px black;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: black;
+    font-family: itsMypal;
+    font-size: 1.8rem;
+}
+
+.container{
+    background-color: gray;
+    color: white;
+    display: grid;
+    gap: 10px;
+    padding: 20px;
+    grid-template: 100px 100px 100px/ auto auto auto auto;
+    justify-items: center;
+    align-items: center;
+    grid-template: auto auto auto / auto auto auto auto ;
+}
+
+img{
+    width: 170px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.rect{
+    padding: 10px;
+    background-color: white;
+    box-shadow: 5px 20px 30px 5px black;
+    border-radius: 3px;
+}
+
+@keyframes changeColor {
+    0%{background-color: red; width: 100px;}
+    12.5%{background-color: #ffa500;}
+    25%{background-color: aliceblue;}
+    37.5%{background-color: #00ffff;}
+    50%{background-color: yellow; width: 400px;}
+    62.5%{background-color: #dc143c;}
+    75%{background-color: green;}
+    87.5%{background-color: #ff1493;}
+    100%{background-color: blue; width: 100px;}   
+}
+
+/* @keyframes move {
+    0%{left: 0px;}
+    100%{left: 300px;} 
+} */
+
+
+.container-master{
+    display: flex;
+    flex-direction: row;
+}
+
+.box{
+    position: relative;
+    width: 150px;
+    height: 100px;
+    border-style: solid;
+    /* animation-name: changeColor;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-fill-mode: both; */
+
+    animation: changeColor 5s linear 0s 4 alternate both;
+}
+
+.div1{
+    animation-timing-function: linear;/* mantém a mesma velocidade de animação do início ao fim */
+}
+.div2{
+    animation-timing-function: ease;/* inicia a animação mais aceledara e diminui a velociadde no final */
+}
+.div3{
+    animation-timing-function: ease-in;/* começa com velocidade mais lenta, depois fica na velocidade linear */
+}
+.div4{
+    animation-timing-function: ease-out;/* começa na velocidade linear, depois termina numa velocidade mais lenta */
+}
+.div5{
+    animation-timing-function: ease-in-out;/* começa e termina com uma velocidade mais lenta, no meio tem velocidade linear */
+}

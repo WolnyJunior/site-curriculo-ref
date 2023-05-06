@@ -1,0 +1,165 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(44, 236, 172);
+    margin: 20px;
+}
+
+
+
+#nome {
+    position: relative;
+    text-align: center;
+    padding: 30px;
+}
+
+#borda {
+    margin: auto;
+    width: 61.2%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+#botao {
+    text-align: center;
+}
+
+.bts {
+    text-decoration: none;
+    background-color: rgb(43, 195, 226);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    color: white;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+    box-shadow: 8px 10px 20px black;
+}
+
+h2,
+h4,
+#curso_extra,
+.res {
+    text-align: center;
+    margin: 10px;
+}
+
+h5 {
+    margin: 15px;
+}
+
+.hobby {
+    list-style-position: inside;
+}
+
+#skate {
+    list-style-image: url(/Assets/icons/skateboard.PNG);
+}
+
+#futebol {
+    list-style-image: url(/Assets/icons/futebol.PNG);
+}
+
+#video_game {
+    list-style-image: url(/Assets/icons/game.PNG);
+}
+
+#animes {
+    list-style-image: url(/Assets/icons/anime.PNG);
+}
+
+#filmes {
+    list-style-image: url(/Assets/icons/cinema.PNG);
+}
+
+#moto {
+    list-style-image: url(/Assets/icons/moto.PNG);
+}
+
+#home {
+    position: fixed;
+    right: 220px;
+    bottom: 20px;
+    transition-property: top;
+    transition-duration: 0.5s;
+    scroll-behavior: smooth;
+}
+
+#progress-bar-warning {
+    background-color: #fd8a24;
+}
+
+#progress-bar-danger {
+    background-color: green;
+}
+
+.skill-intermediario {
+    background-color: #fd8a24;
+    border-radius: 5px;
+    box-shadow: 8px 10px 20px black;
+}
+
+#html {
+    background-color: green;
+    border-radius: 5px;
+    box-shadow: 8px 10px 20px black;
+}
+
+.skill-basica {
+    border-radius: 5px;
+    box-shadow: 8px 10px 20px black;
+}
+
+.contato{
+    margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .bts {
+        font-size: 1rem;
+        text-decoration: none;
+        background-color: rgb(43, 195, 226);
+        padding: 5px;
+        margin: 5px;
+        border-radius: 10px;
+        color: white;
+        font-style: italic;
+        font-weight: bolder;
+        font-size: large;
+        box-shadow: 8px 10px 20px black;
+    }
+
+    #home {
+        display: none;
+    }
+
+    #borda {
+        width: 99%;
+    }
+
+    .tabela, td, tr {
+        font-size: 1.8vh;
+    }
+
+    .titulos {
+        font-size: 2.3vh;
+    }
+
+    .conteudo {
+        font-size: 1.5vh;
+    }
+
+    .res {
+        margin: auto;
+        font-size: 0.7rem;
+    }
+
+    .hobby {
+        margin: auto;
+        list-style-type: circle;
+    }
+}

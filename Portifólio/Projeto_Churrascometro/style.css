@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+}
+.container{
+    margin: auto;
+    width: 300px;
+    background-color: #fff12f;
+    padding: 20px;
+    border: 5px solid #e07d52;
+    border-radius: 8px;
+    box-shadow: 5px 8px 10px gray;
+
+}
+#resultado{
+    height: 120px;
+    margin: 10px;
+    border: 5px solid #e07d52;
+    border-radius: 8px;
+    padding: 2px;
+    font-weight: 700;
+    box-shadow: 3px 5px 8px black;
+}
+
+input, select{
+
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button{
+    padding: 5px;
+    margin: auto;
+    box-shadow: 3px 5px 8px black;
+}
+#curriculo
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 20px;
+}
+.button 
+{
+    background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    font-style: italic;
+    font-size: 0.8;
+    box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+}
+a
+{
+    text-decoration: none;
+}

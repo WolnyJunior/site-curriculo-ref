@@ -1,0 +1,124 @@
+body
+{
+    font-family:'Open Sans', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.top-bar
+{
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 10px solid #fd8a24;    
+}
+
+.conteudo-central
+{
+    display: inline-block;
+    margin:0 40px;
+    width: 700px;
+    /* border: 10px solid white; */
+}
+.headline
+{
+    font-size: 56px;
+    line-height: 64px;
+}
+.subtitle
+{
+    font-size: 20px;
+    font-weight: 400;
+}
+.author
+{
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.social-icons
+{
+    margin-top: 10px;
+}
+.social-icon
+{
+    width: 20px;
+    padding: 10px 10px 10px 0px;
+}
+a
+{
+    text-decoration: none;
+    color: #fd8a24;
+}
+.cta
+{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 30px 0;/* quando não tem a especificação de onde é
+    margin/padding/border, sempre vai começar pr cima(top)
+    e ao passar somente 2 valores, já subentende que é em cima e embaixo */
+}
+
+.lateral-direita
+{
+    margin-right: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+    float: right;
+    width: 250px;
+    /* border: 10px solid yellow; */
+}
+.lateral-esquerda
+{
+    margin-left: 20px;
+    box-sizing: border-box;
+    padding: 5px;
+    float: left;
+    width: 250px;
+    /* border: 10px solid #247efd; */
+
+}
+figure
+{
+    padding: 0;
+    margin:0 0 10px;
+}
+figure>img
+{
+    width: 100%;
+}
+figure>a>img
+{
+    width: 100%;
+}
+figure>a :hover
+{
+    box-sizing: border-box;
+    border: 3px solid #fd8a24;
+}
+
+.footer
+{
+    background-color: #333;
+    border-top:5px solid #fd8a24;
+    height: 50px;
+}
+#curriculo
+{
+    position: fixed;
+    right: 0px;
+    top: 0;
+    font-size: 20px;
+}
+.button 
+{
+    background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    font-style: italic;
+    font-size: 0.8;
+    box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+}

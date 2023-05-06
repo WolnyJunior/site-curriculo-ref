@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./imagens/sliced-salt-min.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+
+a, a:visited{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.referencia{
+    color: white;
+    line-height: 15px;
+}
+
+#nome{
+    position: sticky;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    /* top: 10px; */
+    font-family: Churrasco;
+    font-size: 3rem;
+    background-image: linear-gradient(to bottom, red, yellow);
+    border-radius: 30px;
+
+}
+@font-face {
+    font-family: Churrasco;
+    src: url(./fontes/GUEVARA_.TTF);
+}
+
+.container{
+    margin: auto;
+    text-align: center;
+    position: sticky;
+    width: 60%;
+    /* top: 140px; */
+    padding: 10px;
+    /* border: 5px solid #ffffffbb;
+    border-radius: 8px; */
+    box-shadow: 5px 8px 10px black;
+
+}
+input, select{
+
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+}
+button{
+    padding: 10px;
+    margin: auto;
+    box-shadow: 3px 5px 8px black;
+}
+@font-face {
+    font-family: Resultado;
+    src: url(./fontes/chp-fire.ttf);
+}
+#resultado{
+    width: 30%;
+    height: 330px;
+    margin: auto;
+    text-align: center;
+    background-color: #ffffffbb;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    font-family: Resultado;
+    /* color: #ffffffbb; */
+    box-shadow: 3px 5px 8px #ffffffbb;
+}
+
+#fundo{
+    /* border: 1px solid #ffffffbb; */
+    border-radius: 10px;
+    box-shadow: 3px 5px 8px black;
+    width: 80%;
+    margin: auto;
+    background-image: url(./imagens/grill-background-min.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.button{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+}
+#curriculo{
+    font-family: Resultado;
+}
+
+@media only screen and (max-width: 600px)
+{
+    
+    body{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        /* background-image: url(./imagens/grill-background-barbecue-fire-grill-close-up-isolated-on-black-background.jpg);
+        background-image: cover; */
+        color: black;
+    }
+    #fundo{
+        /* border: 1px solid #ffffffbb; */
+        border-radius: 10px;
+        box-shadow: 3px 5px 8px black;
+        width: 100%;
+        margin: auto;
+        background-image: none;
+    }
+    #nome{
+        width: 95%;
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        font-family: Churrasco;
+        font-size: 2rem;
+        background-color: #ffffffbb;
+        border-radius: 30px;
+        box-shadow: 3px 5px 8px #ffffffbb;
+
+    
+    }    
+
+    #resultado{
+        width: 80%;
+        height: 330px;
+        margin: auto;
+        text-align: center;
+        /* border: 5px solid #ffffffbb; */
+        background-color: #ffffffbb;
+        border-radius: 8px;
+        font-size: 1.8rem;
+        font-family: Resultado;
+        /* color: #ffffffbb; */
+        box-shadow: 3px 5px 8px #ffffffbb;
+    }
+    .container{
+        margin: auto;
+        text-align: center;
+        position: sticky;
+        width: 90%;
+        padding: 10px;
+        box-shadow: 5px 8px 10px black;
+    
+    } 
+    
+    
+}

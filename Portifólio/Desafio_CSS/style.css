@@ -1,0 +1,77 @@
+body{
+    background-color:cadetblue;
+    padding-left: 10px;
+}
+#cartao{
+    background-image: url(./imagens/backgorund.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;  
+    height: 200px;
+    padding: 1px 20px;
+    margin: auto;
+    margin-top: 10%;
+}
+ul{    
+    font-family: 'Courier New', Courier, monospace;
+    list-style-position: inside; 
+    padding-bottom: 10px;
+    padding-top: 10px
+}
+.nome{
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: -3px;
+    list-style: none;
+}
+.IG{
+    list-style-image: url(./imagens/Insta.png);
+    list-style-position: inside;
+    text-indent:10px;
+    font-size: 18px;
+    color: black;
+}
+.TW{
+    list-style-image: url(./imagens/Twitter.png);
+    list-style-position: inside;
+    text-indent:10px;
+    font-size: 18px;
+}
+.YT{
+    list-style-image: url(./imagens/Youtube.png);
+    list-style-position: inside;
+    text-indent:10px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:active{
+    color:red;
+}
+a:hover{
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: cadetblue;
+    color:white;
+}
+#curriculo
+{
+    position: fixed;
+    right: 0px;
+    top: 0;
+    font-size: 20px;
+}
+.button 
+{
+    background-image: linear-gradient(to bottom left,#FB654E,#FA2302,#C71D01,#FB654E);
+    border: 2px solid white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+    font-style: italic;
+    font-size: 0.8;
+    box-shadow: 8px 10px 20px black; /*colocar sombreamento */
+}
