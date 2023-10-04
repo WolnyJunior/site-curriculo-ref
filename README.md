@@ -6,7 +6,6 @@ Foi um trabalho do curso de ADS. Usei um pouco de Bootstrap e o conhecimento bá
 Estou refatorando e arrumando algumas coisas desnecessárias.
 Para ficar mais apresentável para usar como portifólio
 <ul>
-  <li><a href="http://curriculosorin.com.br/">Aqui</a> é o site que está hospedado no Hostgator</li>
   <li><a href="https://site-curriculo-ref.vercel.app/">Aqui</a> é o site que estou refatorando, esse está hospedado no Vercel </li>
 </ul>
 
